@@ -1,0 +1,6 @@
+version: v1beta1
+name: buf.build/pangorithm/bds-proto
+build:
+  roots:
+    - proto
+
