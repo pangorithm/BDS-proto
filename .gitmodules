@@ -1,3 +1,0 @@
-[submodule "BDS-proxy"]
-	path = BDS-proxy
-	url = git@github.com:pangorithm/BDS-proxy.git
