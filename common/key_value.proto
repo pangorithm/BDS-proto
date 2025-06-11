@@ -29,7 +29,7 @@ message GetResponse {
 }
 
 // KeyValue 저장 및 조회 서비스 정의
-service KeyValueStore {
+service KeyValueStoreService {
   rpc Put (PutRequest) returns (PutResponse);
   rpc Get (GetRequest) returns (GetResponse);
 }
