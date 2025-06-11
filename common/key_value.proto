@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package example;
+package key_value;
 
 // key, value 두 개 프로퍼티를 가진 메시지
 message KeyValue {
