@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+package packet;
+
+message Packet {
+  string sender = 1;
+  string event = 2;
+  google.protobuf.Struct des = 3;
+}
+
+message Int32Value {
+  int32 value = 1;
+}
+
+service PacketLoggingService {
+  rpc Put (Packet) returns (Int32Value);
+}
