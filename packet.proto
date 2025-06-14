@@ -1,13 +1,11 @@
 syntax = "proto3";
 
-import "google/protobuf/struct.proto";
-
 package packet;
 
 message Packet {
   string sender = 1;
   string event = 2;
-  google.protobuf.Struct des = 3;
+  string des_json = 3;
 }
 
 message Int32Value {
