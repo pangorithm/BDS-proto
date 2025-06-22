@@ -3,7 +3,7 @@ syntax = "proto3";
 package packet;
 
 message Packet {
-  string sender = 1;
+  string direction = 1;
   string event = 2;
   string des_json = 3;
 }
